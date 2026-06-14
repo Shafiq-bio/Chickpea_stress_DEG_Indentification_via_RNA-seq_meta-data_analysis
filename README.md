@@ -143,9 +143,7 @@ install.packages(c("metaRNAseq", "ggplot2"))
 
 ---
 
-## How to Reproduce the Analysis
-
-Run the scripts in order:
+## Steps by step execution
 
 # Step 1: Download SRA data
 
