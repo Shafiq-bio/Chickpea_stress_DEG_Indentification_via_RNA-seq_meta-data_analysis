@@ -6,12 +6,10 @@ This repository contains all analysis code used in:
 > Shafiq et al. (2025). "Comparative Identification of Stress-Responsive
 > Differentially Expressed Genes in Chickpea (*Cicer arietinum* L.) Using
 > Unsupervised Machine Learning, Traditional Meta-Analysis, and Statistical
-> Approaches." [Journal Name]. DOI: [paper DOI]
 
 This study integrates publicly available chickpea RNA-seq data across drought,
-salt, and salinity stress conditions and applies three complementary approaches
-— unsupervised machine learning (HDBSCAN), HN-score meta-analysis, and
-conventional statistical testing (DESeq2, limma-voom) — to identify robust
+salt, and salinity stress conditions and applies three complementary approaches unsupervised machine learning (HDBSCAN), HN-score meta-analysis, and
+conventional statistical testing (DESeq2, limma-voom) to identify robust
 stress-responsive differentially expressed genes (DEGs).
 
 ---
@@ -102,9 +100,6 @@ Bioproject accessions are listed in Table 1 of the manuscript.
 | Salt |SRP226678| 1 |
 | Salinity | SRP376874, SRP059951 | 2 |
 
-The chickpea reference genome was downloaded from NCBI:
-http://www.ncbi.nlm.nih.gov/pubmed/24227677
-
 ---
 
 ## Dependencies
@@ -159,7 +154,6 @@ Run the scripts in order:
 # Step 3: Alignment
 
 # Step 4: Quantification
-bash 4_quantification/featurecounts.sh
 
 # Step 5: Preprocessing, normalization and distance metric performance 
 
@@ -190,7 +184,6 @@ If you use this code, please cite:
 > Shafiq et al. (2025). Comparative Identification of Stress-Responsive
 > Differentially Expressed Genes in Chickpea (*Cicer arietinum* L.) Using
 > Unsupervised Machine Learning, Traditional Meta-Analysis, and Statistical
-> Approaches. [Journal Name]. DOI: [paper DOI]
 
 ---
 
