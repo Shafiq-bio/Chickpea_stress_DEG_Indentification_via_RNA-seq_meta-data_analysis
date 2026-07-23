@@ -3,7 +3,7 @@
 ## Overview
 This repository contains all analysis code used in:
 
-> Shafiq et al. (2025). "Comparative Identification of Stress-Responsive
+> Shafiq et al. (2026). "Comparative Identification of Stress-Responsive
 > Differentially Expressed Genes in Chickpea (*Cicer arietinum* L.) Using
 > Unsupervised Machine Learning, Traditional Meta-Analysis, and Statistical
 
@@ -182,6 +182,7 @@ If you use this code, please cite:
 > Shafiq et al. (2025). Comparative Identification of Stress-Responsive
 > Differentially Expressed Genes in Chickpea (*Cicer arietinum* L.) Using
 > Unsupervised Machine Learning, Traditional Meta-Analysis, and Statistical
+> Gene and Genomics
 
 ---
 
